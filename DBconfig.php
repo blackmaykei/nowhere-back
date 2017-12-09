@@ -4,10 +4,10 @@ class DBconfig
     {  
        
 
-        private $_host = '49.50.106.71';
-        private $_username = 'nandhini';
-        private $_password = 'nandhini_6292017';
-        private $_database = 'rhbusindialite';
+        private $_host = 'localhost';
+        private $_username = 'propscb1_nw-demo';
+        private $_password = 'admin1234';
+        private $_database = 'propscb1_nw-demo';
         
         public function __constructor($_username,$_password)
         {
