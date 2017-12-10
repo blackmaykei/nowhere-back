@@ -25,7 +25,7 @@ class login extends appendstatus{
 
 		$username=mysqli_real_escape_string($conn,$username);
 		$password=mysqli_real_escape_string($conn,$password);
-		$query = "SELECT count(*) FROM `get_users` WHERE userid='$username' AND pass_word='$password'";
+		$query = "SELECT count(*) FROM `member` WHERE member_user='$username' AND member_pass='$password'";
 
 		$result = mysqli_query($conn,$query);
 		
